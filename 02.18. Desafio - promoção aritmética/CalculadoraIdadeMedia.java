@@ -5,7 +5,7 @@ public class CalculadoraIdadeMedia {
     int idade2 = 40;
     int idade3 = 60;
 
-    float idadeMedia = (idade1 + idade2 + idade3) / 3f;
+    float idadeMedia = (float) (idade1 + idade2 + idade3) / 3;
 
     System.out.println("Idade média: " + idadeMedia);
   }
